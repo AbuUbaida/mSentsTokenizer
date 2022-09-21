@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="mSentsTokenizer",
-    description="Sentence Tokenizer with Multilingual Support",
+    description="Multilingual Document Tokenization at the Sentence Level",
     long_description=long_description,
     long_description_content_type="text/markdown",
     package_dir={"": "src"},

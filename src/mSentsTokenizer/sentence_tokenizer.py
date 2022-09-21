@@ -1,13 +1,13 @@
-from multilingual_sentence_tokenizer.library import spacy_support
-from multilingual_sentence_tokenizer.library import bltk_support
-from multilingual_sentence_tokenizer.library import indic_support
-from multilingual_sentence_tokenizer.library import pysbd_support
-from multilingual_sentence_tokenizer.library import nltk_support
-from multilingual_sentence_tokenizer import languages_support
+from mSentsTokenizer.library import spacy_support
+from mSentsTokenizer.library import bltk_support
+from mSentsTokenizer.library import indic_support
+from mSentsTokenizer.library import pysbd_support
+from mSentsTokenizer.library import nltk_support
+from mSentsTokenizer import languages_support
 
 def tokenize(text:str,language:str):
     """
-    Tokenize sentences in text
+    Tokenize document at sentences level
     Arguments:
         text: Document string 
         language: Language ID i.e. ISO:639-2 code. 
