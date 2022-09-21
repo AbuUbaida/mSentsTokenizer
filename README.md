@@ -1,6 +1,6 @@
 # Multilingual Sentence Tokenizer
 
-A Python package for tokenizing multilingual documents at the sentence level. Users will provide a document to be segmented and the language of the document as input. Currently, there are supports for 41 languages ranging from low to high resource, which belong to 10 different language families (_i.e._ Afro-Asiatic, Indo-European, Sino-Tibetan, Austronesian, Japanese, Altaic, Dravidian, Tai-Kadai, Austro-Asiatic, and Niger-Congo). mSentsTokenizer matches the input language with the available supports of language from the pre-existing packages and simply invokes the corresponding package to tokenize the input document. Finally, this will return a list of sentences as the output.
+A Python package for tokenizing multilingual documents at the sentence level. Users will provide a document to be segmented and the language of the document as input. Currently, there are supports for **41 languages** ranging from low to high resource, which belong to **10 language families** (_i.e._ Afro-Asiatic, Indo-European, Sino-Tibetan, Austronesian, Japanese, Altaic, Dravidian, Tai-Kadai, Austro-Asiatic, and Niger-Congo). mSentsTokenizer matches the input language with the available supports of language from the pre-existing packages and simply invokes the corresponding package to tokenize the input document. Finally, this will return a list of sentences as the output.
  
 * Supported Languages with ISO 639-2 code:
 `am: Amharic`,
